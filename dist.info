@@ -1,0 +1,17 @@
+--- This file is part of LuaDist project
+
+name = "numlua"
+version = "0.3"
+
+desc = "Numerical routines for Lua."
+author = "Luis Carvalho"
+license = "MIT/X11"
+url = "https://github.com/carvalho/numlua"
+maintainer = "Peter Drahoš"
+
+depends = {
+  "lua ~> 5.1",
+  "lapack",
+  "fftw",
+  "hdf5",
+}
