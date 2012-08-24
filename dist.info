@@ -11,7 +11,7 @@ maintainer = "Peter Drahoš"
 
 depends = {
   "lua ~> 5.1",
-  "lapack",
+  "lapack >= 3.4",
   "fftw",
   "hdf5",
 }
